@@ -1,10 +1,10 @@
 //Initial snake position
 let inputDir = {x:0, y:0}
 //sounds 
-const foodsound = new Audio('20279__koops__apple-crunch-16.wav');
-const gameoversound = new Audio('433644__dersuperanton__game-over-sound.wav');
-const movesound = new Audio('movesound.mp3');
-const gamebacksound = new Audio('background_music.mp3');
+const foodSound = new Audio('music/food.mp3');
+const gameOverSound = new Audio('music/gameover.mp3');
+const moveSound = new Audio('music/move.mp3');
+const musicSound = new Audio('music/music.mp3');
 let board = document.getElementById("board");
 let speed = 12;
 let lastPaintTime =0;
