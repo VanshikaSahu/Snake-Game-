@@ -1,10 +1,10 @@
 //Initial snake position
 let inputDir = {x:0, y:0}
 //sounds 
-const foodSound = new Audio('food.mp3');
-const gameOverSound = new Audio('gameover.mp3');
-const moveSound = new Audio('move.mp3');
-const musicSound = new Audio('music.mp3');
+const foodsound = new Audio('food.wav');
+const gameoversound = new Audio('gameover.wav');
+const movesound = new Audio('movesound.mp3');
+const gamebacksound = new Audio('background_music.mp3');
 let board = document.getElementById("board");
 let speed = 12;
 let lastPaintTime =0;
@@ -14,7 +14,7 @@ let snakearr = [{x:13, y:15}];
 //first element of snake array is the head.
 let food = {x: 5, y: 4};
 
-debugger;
+
 
 function main(ctime) {
     window.requestAnimationFrame(main);
